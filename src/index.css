@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  font-family: "Lobster", cursive;
+}
+.main-button {
+  margin-top: 20px;
+}
+.main-button button {
+  margin: 10px;
+}
+.main-wrapper {
+  background-color: rgba(10, 237, 237, 0.393);
+  display: inline-block;
+  border-radius: 20px;
+  margin-top: 20px;
+  box-shadow: 15px 15px 5px grey;
+}
+.login {
+  margin: 15px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.login > div {
+  margin: 5px 0;
+}
+button {
+  appearance: none;
+  border: none;
+  border-radius: 6px;
+  padding: 7px 20px;
+  font-family: "Lobster", cursive;
+  background-image: linear-gradient(to top right, hotpink, rgb(0, 0, 255));
+}
+a:link {
+  text-decoration: none;
+}
+
+.error {
+  background-color: rgba(255, 0, 0, 0.328);
+  padding: 3px 10px;
+  border-radius: 5px;
+  margin-top: 3px;
+  color: red;
+}
+
+input {
+  appearance: none;
+  border: none;
+  border: 1px solid grey;
+  border-radius: 5px;
+  width: 250px;
+  padding: 7px 10px;
+}
